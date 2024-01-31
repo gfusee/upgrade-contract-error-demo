@@ -7,9 +7,7 @@
                 "address:owner": {
                     "nonce": "0",
                     "balance": "0",
-                    "esdt": {
-                        "str:WEGLD-abcdef": "1,000,000"
-                    }
+                    "esdt": {}
                 },
                 "sc:contract_template": {
                     "nonce": "0",

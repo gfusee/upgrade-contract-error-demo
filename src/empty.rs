@@ -39,7 +39,4 @@ pub trait Empty: ContractBase {
                 &ManagedArgBuffer::new()
             );
     }
-
-    #[proxy]
-    fn contract_proxy(&self, address: ManagedAddress<Self::Api>) -> crate::Proxy<Self::Api>;
 }
